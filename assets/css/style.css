@@ -1,26 +1,19 @@
-/**
-* Template Name: MyResume - v4.9.2
-* Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
+/*-----------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
   font-family: "Times New Roman", sans-serif;
   font-size: 16px;
-  color: #272829;
-}
+  color: #fff; /* Change text color to white */
+  background-color: #232323; /* Change background color to dark */}
 
 a {
-  color: #0563bb;
+  color: #67b7dc;
   text-decoration: none;
 }
 
 a:hover {
-  color: #067ded;
+  color: #90cdf4;
   text-decoration: none;
 }
 
@@ -141,8 +134,8 @@ h6 {
 @media (max-width: 991px) {
   #header {
     width: 300px;
-    background: #fff;
-    border-right: 1px solid #e6e9ec;
+    background: #323232e3;
+    border-right: 1px solid #e6e9ec00;
     left: -300px;
   }
 }
@@ -179,13 +172,13 @@ h6 {
 .nav-menu a:focus {
   display: flex;
   align-items: center;
-  color: #45505b;
+  color: #000000;
   padding: 10px 18px;
   margin-bottom: 8px;
   transition: 0.3s;
   font-size: 15px;
   border-radius: 50px;
-  background: #f2f3f5;
+  background: #7d97cb;
   height: 56px;
   width: 100%;
   overflow: hidden;
@@ -200,7 +193,7 @@ h6 {
 .nav-menu a span,
 .nav-menu a:focus span {
   padding: 0 5px 0 7px;
-  color: #45505b;
+  color: #000000;
 }
 
 @media (min-width: 992px) {
@@ -221,8 +214,9 @@ h6 {
 .nav-menu .active,
 .nav-menu .active:focus,
 .nav-menu li:hover>a {
-  color: #fff;
-  background: #0563bb;
+  color: #fefcfc;
+  background: #232323e7;
+  border: 3px solid #f4f6f7;
 }
 
 .nav-menu a:hover span,
@@ -298,7 +292,7 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(255, 255, 255, 0.8);
+  background: #232323;
   position: absolute;
   bottom: 0;
   top: 0;
@@ -311,18 +305,18 @@ h6 {
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
-  color: #45505b;
+  color: #fafafa;
 }
 
 #hero p {
-  color: #45505b;
+  color: #ffffff;
   margin: 15px 0 0 0;
   font-size: 26px;
   font-family: "Times New Roman", sans-serif;
 }
 
 #hero p span {
-  color: #0563bb;
+  color: #02ffcc;
   letter-spacing: 1px;
 }
 
@@ -333,14 +327,14 @@ h6 {
 #hero .social-links a {
   font-size: 24px;
   display: inline-block;
-  color: #45505b;
+  color: #c6c6c697;
   line-height: 1;
   margin-right: 20px;
   transition: 0.3s;
 }
 
 #hero .social-links a:hover {
-  color: #0563bb;
+  color: #07fff7;
 }
 
 @media (max-width: 992px) {
@@ -380,7 +374,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #45505b;
+  color: #02ffcc;
 }
 
 .section-title h2::before {
@@ -400,7 +394,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #0563bb;
+  background: #02ffcc;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -507,42 +501,6 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
---------------------------------------------------------------*/
-.skills .progress {
-  height: 60px;
-  display: block;
-  background: none;
-  border-radius: 0;
-}
-
-.skills .progress .skill {
-  padding: 10px 0;
-  margin: 0;
-  text-transform: uppercase;
-  display: block;
-  font-weight: 600;
-  font-family: "Times New Roman", sans-serif;
-  color: #45505b;
-}
-
-.skills .progress .skill .val {
-  float: right;
-  font-style: normal;
-}
-
-.skills .progress-bar-wrap {
-  background: #f2f3f5;
-}
-
-.skills .progress-bar {
-  width: 1px;
-  height: 10px;
-  transition: 0.9s;
-  background-color: #0563bb;
-}
-
-/*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
 .resume .resume-title {
@@ -550,7 +508,7 @@ section {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #45505b;
+  color: #8bfee7;
 }
 
 .resume .resume-item {
@@ -566,13 +524,13 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Times New Roman", sans-serif;
-  color: #0563bb;
+  color: #0f8bff;
   margin-bottom: 10px;
 }
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #f7f8f9;
+  background: #f7f8f933;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
@@ -599,8 +557,8 @@ section {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #fff;
-  border: 2px solid #0563bb;
+  background: #232323;
+  border: 4px solid #0563bb;
 }
 
 /*--------------------------------------------------------------
@@ -635,7 +593,7 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #0563bb;
+  color: #0f8bff;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -727,7 +685,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a {
-  color: #45505b;
+  color: #2273c3;
   margin: 0 2px;
   font-size: 28px;
   display: inline-block;
@@ -804,8 +762,8 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #f7f8f9;
-  color: #45505b;
+  background: #000000;
+  color: #fefefe9d;
   font-size: 14px;
   text-align: center;
   padding: 30px 0;
@@ -894,3 +852,29 @@ section {
   scrollbar-width: thin;
   scrollbar-color: transparent transparent;
 }
+.playlist-container {
+  display: flex;
+  flex-wrap: nowrap; /* Prevent wrapping */
+  justify-content: flex-start; /* Start at the beginning */
+}
+
+.playlist-container iframe {
+  border-radius: 12px;
+  width: 31%; /* Initial width for side-by-side layout */
+  height: 152px;
+  margin-right: 10px; /* Adjust the spacing between iframes */
+}
+
+@media only screen and (max-width: 980px) {
+  .playlist-container {
+    flex-direction: column; /* Stack vertically on mobile */
+    align-items: center; /* Center items vertically */
+  }
+
+  .playlist-container iframe {
+    width: 100%; /* Full width on mobile */
+    margin-right: 0; /* No margin on mobile */
+    margin-bottom: 10px; /* Add space between iframes on mobile */
+  }
+}
+
