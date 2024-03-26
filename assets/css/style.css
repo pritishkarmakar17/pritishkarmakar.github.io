@@ -26,6 +26,10 @@ h6 {
   font-family: "Times New Roman", sans-serif;
 }
 
+strong {
+  color: #6dffb6;
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -178,7 +182,7 @@ h6 {
   transition: 0.3s;
   font-size: 15px;
   border-radius: 50px;
-  background: #7d97cb;
+  background: #7da3cb;
   height: 56px;
   width: 100%;
   overflow: hidden;
@@ -530,11 +534,16 @@ section {
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #f7f8f933;
+  background: #f7f8f922;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
   margin-bottom: 10px;
+
+  transition: 0.3s;
+  border-radius: 50px;
+  overflow: hidden;
+  transition: 0.3s;
 }
 
 .resume .resume-item ul {
