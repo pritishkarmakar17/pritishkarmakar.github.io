@@ -570,6 +570,14 @@ section {
   border: 4px solid #0563bb;
 }
 
+.institution-logo {
+  margin-left: 10px; /* Adjust the margin as needed */
+}
+
+.institution-logo img {
+  width: 80px; /* Adjust the width of the logo */
+}
+
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
