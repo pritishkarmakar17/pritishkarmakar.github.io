@@ -3,9 +3,15 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Times New Roman", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
   font-size: 16px;
-  color: #fff; /* Change text color to white */
-  background-color: #232323; /* Change background color to dark */}
+  color: #fff; 
+  background: url("../img/backgroung.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 a {
   color: #67b7dc;
@@ -17,17 +23,27 @@ a:hover {
   text-decoration: none;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
+h1 {
+  font-family: "Roboto Mono", monospace;
+}
+h2{
+  font-family: "Roboto Mono", monospace;
+}
+h3{
+  font-family: "Roboto Mono", monospace;
+}
+h4{
+  font-family: "Ubuntu", sans-serif;
+}
+h5{
+  font-family: "Ubuntu", sans-serif;
+}
 h6 {
   font-family: "Times New Roman", sans-serif;
 }
 
 strong {
-  color: #6dffb6;
+  color: #88FCC8;
 }
 
 /*--------------------------------------------------------------
@@ -74,7 +90,7 @@ strong {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #232323;
+  background: #050408;
 }
 
 #preloader:before {
@@ -82,7 +98,7 @@ strong {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #adadad;
+  border: 6px solid #b588fa;
   border-top-color: #232323;
   border-bottom-color: #232323;
   border-radius: 50%;
@@ -137,7 +153,7 @@ strong {
 
 @media (max-width: 991px) {
   #header {
-    width: 300px;
+    width: 250px;
     background: #323232e3;
     border-right: 1px solid #e6e9ec00;
     left: -300px;
@@ -182,7 +198,7 @@ strong {
   transition: 0.3s;
   font-size: 15px;
   border-radius: 50px;
-  background: #7da3cb;
+  background: #bb86fc;
   height: 56px;
   width: 100%;
   overflow: hidden;
@@ -219,7 +235,7 @@ strong {
 .nav-menu .active:focus,
 .nav-menu li:hover>a {
   color: #fefcfc;
-  background: #232323e7;
+  background: #050408;
   border: 3px solid #f4f6f7;
 }
 
@@ -251,17 +267,17 @@ strong {
   z-index: 9998;
   border: 0;
   background: none;
-  font-size: 28px;
+  font-size: 20px;
   transition: all 0.4s;
   outline: none !important;
   line-height: 0;
   cursor: pointer;
   border-radius: 50px;
-  padding: 5px;
+  padding: 2px;
 }
 
 .mobile-nav-toggle i {
-  color: #45505b;
+  color: #bb86fc70;
 }
 
 .mobile-nav-active {
@@ -283,7 +299,7 @@ strong {
 #hero {
   width: 100%;
   height: 100vh;
-  /*background: url("../img/hero-bg.jpg") top right no-repeat;
+  /*background: url("../img/backgroung.svg") top right no-repeat;
   background-size: cover;*/
   position: relative;
 }
@@ -294,7 +310,7 @@ strong {
   }
 }
 
-#hero:before {
+/*#hero:before {
   content: "";
   background: #232323;
   position: absolute;
@@ -302,7 +318,7 @@ strong {
   top: 0;
   left: 0;
   right: 0;
-}
+}*/
 
 #hero h1 {
   margin: 0;
@@ -512,13 +528,13 @@ section {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #8bfee7;
+  color: #92AEFC;
 }
 
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #0563bb;
+  border-left: 2px solid #8BE7FC;
   position: relative;
 }
 
@@ -527,8 +543,7 @@ section {
   font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
-  font-family: "Times New Roman", sans-serif;
-  color: #0f8bff;
+  color: #8BE7FC;
   margin-bottom: 10px;
 }
 
@@ -566,8 +581,8 @@ section {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #232323;
-  border: 4px solid #0563bb;
+  background: #007f9c;
+  border: 4px solid #8BE7FC;
 }
 
 .institution-logo {
@@ -862,6 +877,7 @@ section {
   height: 200px; /* Set the height of each image */
   margin-right: 10px; /* Adjust the spacing between images */
   border-radius: 10px;
+  border: 2px solid #02ffcc;
 }
 .photo-gallery {
   overflow-x: auto;
@@ -899,7 +915,7 @@ section {
 
 @media (max-width: 992px) {
   iframe {
-    height: 170pt; 
-    width: 70%;
+    height: 200pt; 
+    width: 80%;
   }
 }
