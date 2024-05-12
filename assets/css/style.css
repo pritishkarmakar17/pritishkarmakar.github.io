@@ -82,9 +82,9 @@ strong {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #0563bb;
-  border-top-color: #fff;
-  border-bottom-color: #fff;
+  border: 6px solid #adadad;
+  border-top-color: #232323;
+  border-bottom-color: #232323;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -378,7 +378,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #02ffcc;
+  color: #bb86fc;
 }
 
 .section-title h2::before {
@@ -387,7 +387,7 @@ section {
   display: block;
   width: 120px;
   height: 1px;
-  background: #ddd;
+  background: #bb86fc;
   bottom: 1px;
   left: calc(50% - 60px);
 }
@@ -396,11 +396,11 @@ section {
   content: "";
   position: absolute;
   display: block;
-  width: 40px;
-  height: 3px;
-  background: #02ffcc;
+  width: 120px;
+  height: 1px;
+  background: #8b2cff;
   bottom: 0;
-  left: calc(50% - 20px);
+  left: calc(50% - 60px);
 }
 
 .section-title p {
@@ -869,29 +869,37 @@ section {
   scrollbar-width: thin;
   scrollbar-color: transparent transparent;
 }
+/*
 .playlist-container {
   display: flex;
-  flex-wrap: nowrap; /* Prevent wrapping */
-  justify-content: flex-start; /* Start at the beginning */
+  flex-wrap: nowrap;
+  justify-content: flex-start; 
 }
 
 .playlist-container iframe {
   border-radius: 12px;
-  width: 31%; /* Initial width for side-by-side layout */
+  width: 31%; 
   height: 152px;
-  margin-right: 10px; /* Adjust the spacing between iframes */
+  margin-right: 10px; 
 }
 
 @media only screen and (max-width: 980px) {
   .playlist-container {
-    flex-direction: column; /* Stack vertically on mobile */
-    align-items: center; /* Center items vertically */
+    flex-direction: column; 
+    align-items: center; 
   }
 
   .playlist-container iframe {
-    width: 100%; /* Full width on mobile */
-    margin-right: 0; /* No margin on mobile */
-    margin-bottom: 10px; /* Add space between iframes on mobile */
+    width: 100%; 
+    margin-right: 0; 
+    margin-bottom: 10px; 
+}
+*/
+
+
+@media (max-width: 992px) {
+  iframe {
+    height: 170pt; 
+    width: 70%;
   }
 }
-
