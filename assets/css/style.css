@@ -645,8 +645,8 @@ section {
   color: #c9a4f5;
   font-size: 14px;
   text-align: center;
-  padding: 10px 0;
-  border-radius: 50px;
+  padding: 4px 0;
+  border-radius: 25px;
 }
 
 #footer h3 {
@@ -746,7 +746,7 @@ section {
   overflow-x: auto;
   white-space: nowrap;
   scrollbar-width: thin;
-  scrollbar-color: transparent transparent;
+  scrollbar-color: transparent transparent; 
 }
 /*
 .playlist-container {
